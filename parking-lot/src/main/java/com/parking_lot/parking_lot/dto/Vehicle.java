@@ -8,9 +8,6 @@ import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
-@RequiredArgsConstructor
 @Builder
 public class Vehicle {
     private String vehicleNumber;
